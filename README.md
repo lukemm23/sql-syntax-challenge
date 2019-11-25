@@ -1,4 +1,4 @@
-# sql-syntax-challenge
+<!-- # sql-syntax-challenge
 
 In this challenge, we’re going to practice performing SQL queries. This should help better solidify some concepts that were covered during lecture.
 
@@ -6,12 +6,12 @@ In this challenge, we’re going to practice performing SQL queries. This should
 
 * You are using Postico
 * You installed Postgres with homebrew
-* Postgres is currently running on your computer
+* Postgres is currently running on your computer -->
 
-## Setup
-Follow the instructions below before continuing with this challenge.
+<!-- ## Setup
+Follow the instructions below before continuing with this challenge. -->
 
-### Create your database, table, and data
+<!-- ### Create your database, table, and data
 
 We are creating a `bank` database with a single table (`accounts`) and 8 records. Please follow the instructions below to create a new database with this table and data.
 
@@ -21,8 +21,8 @@ We are creating a `bank` database with a single table (`accounts`) and 8 records
 4. Create a `bank` database.
 5. Double-click the `bank` database to use it.
 6. Double-click the 'SQL Query' icon to bring up the query window.
-7. Paste the following query into the query box to create the `accounts` table and populate it with data. Remember to click the `Execute query` button.
-
+7. Paste the following query into the query box to create the `accounts` table and populate it with data. Remember to click the `Execute query` button. -->
+<!-- 
 ```SQL
 CREATE TABLE accounts (
     "id" serial PRIMARY KEY,
@@ -44,7 +44,7 @@ VALUES ('Shawn', 'Chicago', 5, 10, 355.80),
 ('Ora', 'Phoenix', 88, 90, 3.33),
 ('Grace', 'Miami', 7, 9100, 34.78),
 ('Hope', 'Phoenix', 4, 10, 50.17);
-```
+``` -->
 
 ## Base Mode
 
