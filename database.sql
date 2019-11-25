@@ -46,3 +46,15 @@ VALUES ('Luke','Kansas City', '100', '100', '10000000');
 DELETE FROM "accounts"
 WHERE "city" = 'Miami' OR "city" = 'Phoenix' AND "transactions_completed" < '5';
 
+## Stretch Goal Questions
+-- 1. Anthony moved to Santa Fe. Update his location in the table.
+UPDATE "accounts"
+SET "city" = 'Santa Fe'
+WHERE "id" = '5';
+-- 2. Grace closed her account. Remove her from the database.
+DELETE FROM "accounts"
+WHERE "id" = '9';
+-- 3. Travis made a withdrawal of $20,000. What's their new balance? NOTE: Research `RETURNING`
+-- 4. The Bank needs to track last names. NOTE: Research `ALTER TABLE`
+-- 5. What is the total amount of money held by the bank? NOTE: Research `SUM`
+-- 6. What is the total amount of money held by the bank at each location? NOTE: Research `GROUP BY`

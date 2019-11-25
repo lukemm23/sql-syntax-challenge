@@ -60,6 +60,7 @@ SELECT * FROM accounts;
 
 ## Stretch Goal Questions
 1. Anthony moved to Santa Fe. Update his location in the table.
+UPDATE 
 2. Grace closed her account. Remove her from the database.
 3. Travis made a withdrawal of $20,000. What's their new balance? NOTE: Research `RETURNING`
 4. The Bank needs to track last names. NOTE: Research `ALTER TABLE`
